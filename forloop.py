@@ -1,5 +1,5 @@
 foods=['tuna','beef','sausages','momo']
-for f in foods:#each item in foods is treated as f..loopes through entire list one item at a time
+for f in foods:#each item in foods is treated as f..loopes through entire list one item at a time  ..pahila f tuna huncha ani loop huncha feri f beef huncha ani loop huncha
     print(f)
     print(len(f))
 
