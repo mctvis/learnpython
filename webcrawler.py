@@ -27,8 +27,8 @@ def craig_spider(max_pages):
         for link in soup.find_all("a", {"class": "result-title hdrlnk"}):
             href =link.get("href")#get the href in <a href="">
             title = link.string#the actual string in link eg<title>"Welcome"</title
-            #print(title)
-            #print(href)#can also do print(title,href)
+            print(title)
+            print(href)#can also do print(title,href)
             get_single_item_data(href) #loop inside loop
         page += 120
 
@@ -41,7 +41,7 @@ def get_single_item_data(item_url):
         print(item_name.string)
     for link in soup.find_all("a"):
         href=link.get("href")
-        #print(href)
+        print(href)
 
 craig_spider(240)
 
