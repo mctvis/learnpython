@@ -37,12 +37,14 @@ def create_dictionary (clean_word_list):
         if word in word_count:
             word_count[word]+=1 #this increases value of the word in dictionary ..look dictionary.py for understanding
             #print(word_count)
-            #break
+            break
         else:
-            word_count[word]=1
+            word_count[word]=1 #value halepachi tyo word ko lagi, dictinary ma word ni store huncha
+            print(word_count)
+            break
 
     for key,value in sorted(word_count.items(), key=operator.itemgetter(1)): #the parameter key is different to variabble key in for loop
-        #pass
-        print(key,value)
+        pass
+        #print(key,value)
 
 start(url)
