@@ -8,5 +8,5 @@ for k,v in classmates.items(): #notce the use of two variable k,v for keys and v
 word="Avash"
 word_count={}
 word_count[word]=1
-word_count["Bishal"]=2
+word_count["Bishal"]=20
 print (word_count)
