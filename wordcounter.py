@@ -39,7 +39,7 @@ def create_dictionary (clean_word_list):
             #print(word_count)
             break
         else:
-            word_count[word]=1 #value halepachi tyo word ko lagi, dictinary ma word ni store huncha
+            word_count[word]=1 #value halepachi tyo word ko lagi, dictinary ma word ni store huncha #dictinary aways contains valye from some word so word is stored when world_count[word] is executed
             print(word_count)
             break
 
