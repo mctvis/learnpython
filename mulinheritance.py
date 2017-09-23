@@ -7,7 +7,7 @@ class Shroom():
 
 
 class BigMario(Mario,Shroom):
-    pass
+    pass #pass does nothing
 
 bigmario=BigMario()
 bigmario.move()

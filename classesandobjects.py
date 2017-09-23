@@ -1,6 +1,6 @@
 class Enemy:#normally begin with capital letter
     life = 3
-    def attack(self): #self is not a keyword..Alwyas use self to acceess instance(global) variable
+    def attack(self): #self is not a keyword..Alwyas use self to acceess class variable
         print("ouch!!")
         self.life -= 1
 
